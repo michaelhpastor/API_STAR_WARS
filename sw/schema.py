@@ -25,7 +25,6 @@ class FilmNode(DjangoObjectType):
             "director": ["exact", "icontains"],
             "producers": ["icontains"],
             "release_date": ["exact", "lt", "gt"],
-            # si quieres permitir búsquedas por planeta relacionado:
             "planets__name": ["icontains"],
         }
 
