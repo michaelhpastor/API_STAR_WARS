@@ -1,0 +1,4 @@
+Django>=4.2,<5.1
+graphene-django==3.2.2
+django-filter==24.2
+requests>=2.32
